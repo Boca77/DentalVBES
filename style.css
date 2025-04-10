@@ -50,6 +50,10 @@ nav{
     text-align: left;
 }
 
+.working-hours-inner{
+    width: 500px;
+}
+
 @media (max-width: 768px) {
     .hamburger-menu{
         display: block;
@@ -77,6 +81,12 @@ nav{
         p{
             font-size: 10px;
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .working-hours-inner{
+        width: 300px;
     }
 }
 
