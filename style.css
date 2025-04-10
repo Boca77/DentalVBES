@@ -11,6 +11,10 @@
     font-size: 45px;
 }
 
+.nav-options{
+    display: flex ;
+}
+
 .logo{
    max-width: 250px;
    max-height: 200px;
@@ -58,8 +62,12 @@ nav{
     .hamburger-menu{
         display: block;
     }
-    .nav-options{
-        /* display: none !important; */
+
+    .nav-options.hidden{
+        display: none !important;
+    }
+
+    .nav-options {
         position: absolute;
         flex-direction: column;
         text-align: left;
