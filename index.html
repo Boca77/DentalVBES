@@ -3,11 +3,290 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <title>DentalVBES</title>
 </head>
 <body>
-    <h1>DentalVBES</h1>
-    <p>vasko</p>
-    
+    <div class="hero page w-100 vh-100 d-flex flex-column">
+        <nav class="d-flex align-items-center justify-content-between px-3 px-md-5 w-100">
+            <img class="logo" src="logo.png" alt="logo">
+            <div class="d-flex align-items-center gap-2 gap-md-3">
+                <p class="mb-0"><a class="text-white text-decoration-none" href="#">Почетна</a></p>
+                <p class="mb-0"><a class="text-white text-decoration-none" href="#services">Услуги</a></p>
+                <p class="mb-0"><a class="text-white text-decoration-none" href="#working-hours">Работно време</a></p>
+                <p class="mb-0"><a class="text-white text-decoration-none" href="#about-us">За нас</a></p>
+                <p class="mb-0"><a class="text-white text-decoration-none" href="#contact">Контакт</a></p>
+            </div>
+        </nav>
+        <div class="title-container w-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
+            <h1 class="text-white title display-4">DentalVBES</h1>
+            <p class="text-white fs-5">Стоматолошка ординација во Бутел</p>
+        </div>
+    </div>
+    <div id="services" class="services p-5 border-bottom">
+        <p class="h3">Услуги кои ги нудиме</p>
+        <div class="services-container mt-5 d-flex flex-wrap justify-content-center">
+            <div class="service">
+                <div class="inner p-3 mx-4 rounded shadow">
+                    <div class="d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="150" height="150" viewBox="0 0 200 200" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2" d="M73.5,88c-7,0-14,0.13-21-0.05-3.77-0.1-7.31,3.28-7.5,6.5-1.4,24.03 7.39,45.57 32.04,57.91 22.87,11.46 49.74,5.38 66.5-12.84 11.56-12.64 15.37-27.84 14.5-44-0.23-4.4-2.87-6.89-7.5-6.97-6.33-0.11-12.67,0-19,0"/>
+                            <path stroke-width="2" d="M92.5,102.5c0.83-1.34 1.61-2.6 3.5-2.78 7.15-0.7 14.13-2.91 21.55-0.91 2.83,0.76 6.39-0.45 9.47-1.37 4.27-1.32 5.05-10.3 2.74-14.3-1.39-2.41-0.78-3.79-0.22-5.63 2.16-7.17 2.27-14.36-0.1-21.49-1.28-3.91-4.05-6.81-7.51-9-4.69-3-9.12-2.37-13.5,1-3.58,2.7-7.56,2.75-11.5,0.5-10.13-5.7-18.7-2.14-22,9.13-2.11,7.2-1.23,14.42 0.65,21.46 0.38,1.45 0.91,2.11-0.09,3.58-2.29,3.42-1.44,7.25-0.58,10.92 0.73,3.12 2.68,4.46 6,4.58 3.83,0.14 7.82-1.23 11.5,0.87"/>
+                            <path stroke-width="2" d="M77,81.5h51"/>
+                            <path stroke-width="2" d="M89.5,57.5c6.14,6.23 17.65,7.42 25.18,2.45 1-0.66 2.02-1.01 3.02-1.45"/>
+                            <path stroke-width="2" d="M91.5,103c-3.82,1.36-7.65,2.72-11.64,4.14 0.35,1.23 0.73,2.55 1.23,4.29 8.66-2.64 17.39-5.01 25.93-8.13 3.17-1.13 7-0.51 9.48-3.43"/>
+                            <path stroke-width="2" d="M93,108.5c1.19,2.01-0.08,4.79 1.93,6.44 8.39-2.68 16.72-5.32 25.07-7.95 1.3,1.01 1.44,2.61 2.07,4.05-8.86,2.96-17.73,5.91-26.57,8.96"/>
+                            <path stroke-width="2" d="M106.5,141.5c1.54-1.47 3.62-1.44 5.49-2.02 2.92-0.91 4.26-2.57 1.71-5.66-8.02,2.53-16.21,5.08-24.29,7.58 0.13,2.01 0.51,3.39 2.13,4.48 4.44-1.5 9.44-3.21 14.46-4.88"/>
+                            <path stroke-width="2" d="M97.5,132c6.69-3.36 14.39-3.87 21.04-7.54-0.13-1.9-0.5-4.13-3-3.37-9.95,2.95-19.83,6.18-29.77,9.37 1.99,4.51 1.99,4.51 10.28,1.57 1.71,1.66 1.03,4.11 2.01,6"/>
+                            <path stroke-width="2" d="M96.5,126.5c-2.04-1.71 0.15-5.04-2.57-6.48-2.93,0.97-5.89,1.94-8.89,2.91-1.3-1.01-1.44-2.61-2.06-4.11 3.52-1.3 7.03-2.6 10.55-3.9"/>
+                            <path stroke-width="2" d="M106.5,142c0.07,2.72-0.73,5.14-3.52,5.89-2.11,0.58-3.21-1.18-4-2.89"/>
+                            <path stroke-width="3" d="M110.5,116v6"/>
+                            <path stroke-width="2" d="M112.5,103c0.43,1.83-1.47,3.67 0,5.5"/>
+                        </svg>
+                    </div>
+                    <h5>Услуга</h5>
+                    <p class="mb-0">Опис на услугата. Ова е краток опис на услугата.</p>
+                </div>
+            </div>
+             <div class="service">
+                <div class="inner p-3 mx-4 rounded shadow">
+                    <div class="d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="150" height="150" viewBox="0 0 200 200" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2" d="M73.5,88c-7,0-14,0.13-21-0.05-3.77-0.1-7.31,3.28-7.5,6.5-1.4,24.03 7.39,45.57 32.04,57.91 22.87,11.46 49.74,5.38 66.5-12.84 11.56-12.64 15.37-27.84 14.5-44-0.23-4.4-2.87-6.89-7.5-6.97-6.33-0.11-12.67,0-19,0"/>
+                            <path stroke-width="2" d="M92.5,102.5c0.83-1.34 1.61-2.6 3.5-2.78 7.15-0.7 14.13-2.91 21.55-0.91 2.83,0.76 6.39-0.45 9.47-1.37 4.27-1.32 5.05-10.3 2.74-14.3-1.39-2.41-0.78-3.79-0.22-5.63 2.16-7.17 2.27-14.36-0.1-21.49-1.28-3.91-4.05-6.81-7.51-9-4.69-3-9.12-2.37-13.5,1-3.58,2.7-7.56,2.75-11.5,0.5-10.13-5.7-18.7-2.14-22,9.13-2.11,7.2-1.23,14.42 0.65,21.46 0.38,1.45 0.91,2.11-0.09,3.58-2.29,3.42-1.44,7.25-0.58,10.92 0.73,3.12 2.68,4.46 6,4.58 3.83,0.14 7.82-1.23 11.5,0.87"/>
+                            <path stroke-width="2" d="M77,81.5h51"/>
+                            <path stroke-width="2" d="M89.5,57.5c6.14,6.23 17.65,7.42 25.18,2.45 1-0.66 2.02-1.01 3.02-1.45"/>
+                            <path stroke-width="2" d="M91.5,103c-3.82,1.36-7.65,2.72-11.64,4.14 0.35,1.23 0.73,2.55 1.23,4.29 8.66-2.64 17.39-5.01 25.93-8.13 3.17-1.13 7-0.51 9.48-3.43"/>
+                            <path stroke-width="2" d="M93,108.5c1.19,2.01-0.08,4.79 1.93,6.44 8.39-2.68 16.72-5.32 25.07-7.95 1.3,1.01 1.44,2.61 2.07,4.05-8.86,2.96-17.73,5.91-26.57,8.96"/>
+                            <path stroke-width="2" d="M106.5,141.5c1.54-1.47 3.62-1.44 5.49-2.02 2.92-0.91 4.26-2.57 1.71-5.66-8.02,2.53-16.21,5.08-24.29,7.58 0.13,2.01 0.51,3.39 2.13,4.48 4.44-1.5 9.44-3.21 14.46-4.88"/>
+                            <path stroke-width="2" d="M97.5,132c6.69-3.36 14.39-3.87 21.04-7.54-0.13-1.9-0.5-4.13-3-3.37-9.95,2.95-19.83,6.18-29.77,9.37 1.99,4.51 1.99,4.51 10.28,1.57 1.71,1.66 1.03,4.11 2.01,6"/>
+                            <path stroke-width="2" d="M96.5,126.5c-2.04-1.71 0.15-5.04-2.57-6.48-2.93,0.97-5.89,1.94-8.89,2.91-1.3-1.01-1.44-2.61-2.06-4.11 3.52-1.3 7.03-2.6 10.55-3.9"/>
+                            <path stroke-width="2" d="M106.5,142c0.07,2.72-0.73,5.14-3.52,5.89-2.11,0.58-3.21-1.18-4-2.89"/>
+                            <path stroke-width="3" d="M110.5,116v6"/>
+                            <path stroke-width="2" d="M112.5,103c0.43,1.83-1.47,3.67 0,5.5"/>
+                        </svg>
+                    </div>
+                    <h5>Услуга</h5>
+                    <p class="mb-0">Опис на услугата. Ова е краток опис на услугата.</p>
+                </div>
+            </div>
+             <div class="service">
+                <div class="inner p-3 mx-4 rounded shadow">
+                    <div class="d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="150" height="150" viewBox="0 0 200 200" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2" d="M73.5,88c-7,0-14,0.13-21-0.05-3.77-0.1-7.31,3.28-7.5,6.5-1.4,24.03 7.39,45.57 32.04,57.91 22.87,11.46 49.74,5.38 66.5-12.84 11.56-12.64 15.37-27.84 14.5-44-0.23-4.4-2.87-6.89-7.5-6.97-6.33-0.11-12.67,0-19,0"/>
+                            <path stroke-width="2" d="M92.5,102.5c0.83-1.34 1.61-2.6 3.5-2.78 7.15-0.7 14.13-2.91 21.55-0.91 2.83,0.76 6.39-0.45 9.47-1.37 4.27-1.32 5.05-10.3 2.74-14.3-1.39-2.41-0.78-3.79-0.22-5.63 2.16-7.17 2.27-14.36-0.1-21.49-1.28-3.91-4.05-6.81-7.51-9-4.69-3-9.12-2.37-13.5,1-3.58,2.7-7.56,2.75-11.5,0.5-10.13-5.7-18.7-2.14-22,9.13-2.11,7.2-1.23,14.42 0.65,21.46 0.38,1.45 0.91,2.11-0.09,3.58-2.29,3.42-1.44,7.25-0.58,10.92 0.73,3.12 2.68,4.46 6,4.58 3.83,0.14 7.82-1.23 11.5,0.87"/>
+                            <path stroke-width="2" d="M77,81.5h51"/>
+                            <path stroke-width="2" d="M89.5,57.5c6.14,6.23 17.65,7.42 25.18,2.45 1-0.66 2.02-1.01 3.02-1.45"/>
+                            <path stroke-width="2" d="M91.5,103c-3.82,1.36-7.65,2.72-11.64,4.14 0.35,1.23 0.73,2.55 1.23,4.29 8.66-2.64 17.39-5.01 25.93-8.13 3.17-1.13 7-0.51 9.48-3.43"/>
+                            <path stroke-width="2" d="M93,108.5c1.19,2.01-0.08,4.79 1.93,6.44 8.39-2.68 16.72-5.32 25.07-7.95 1.3,1.01 1.44,2.61 2.07,4.05-8.86,2.96-17.73,5.91-26.57,8.96"/>
+                            <path stroke-width="2" d="M106.5,141.5c1.54-1.47 3.62-1.44 5.49-2.02 2.92-0.91 4.26-2.57 1.71-5.66-8.02,2.53-16.21,5.08-24.29,7.58 0.13,2.01 0.51,3.39 2.13,4.48 4.44-1.5 9.44-3.21 14.46-4.88"/>
+                            <path stroke-width="2" d="M97.5,132c6.69-3.36 14.39-3.87 21.04-7.54-0.13-1.9-0.5-4.13-3-3.37-9.95,2.95-19.83,6.18-29.77,9.37 1.99,4.51 1.99,4.51 10.28,1.57 1.71,1.66 1.03,4.11 2.01,6"/>
+                            <path stroke-width="2" d="M96.5,126.5c-2.04-1.71 0.15-5.04-2.57-6.48-2.93,0.97-5.89,1.94-8.89,2.91-1.3-1.01-1.44-2.61-2.06-4.11 3.52-1.3 7.03-2.6 10.55-3.9"/>
+                            <path stroke-width="2" d="M106.5,142c0.07,2.72-0.73,5.14-3.52,5.89-2.11,0.58-3.21-1.18-4-2.89"/>
+                            <path stroke-width="3" d="M110.5,116v6"/>
+                            <path stroke-width="2" d="M112.5,103c0.43,1.83-1.47,3.67 0,5.5"/>
+                        </svg>
+                    </div>
+                    <h5>Услуга</h5>
+                    <p class="mb-0">Опис на услугата. Ова е краток опис на услугата.</p>
+                </div>
+            </div>
+             <div class="service">
+                <div class="inner p-3 mx-4 rounded shadow">
+                    <div class="d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="150" height="150" viewBox="0 0 200 200" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2" d="M73.5,88c-7,0-14,0.13-21-0.05-3.77-0.1-7.31,3.28-7.5,6.5-1.4,24.03 7.39,45.57 32.04,57.91 22.87,11.46 49.74,5.38 66.5-12.84 11.56-12.64 15.37-27.84 14.5-44-0.23-4.4-2.87-6.89-7.5-6.97-6.33-0.11-12.67,0-19,0"/>
+                            <path stroke-width="2" d="M92.5,102.5c0.83-1.34 1.61-2.6 3.5-2.78 7.15-0.7 14.13-2.91 21.55-0.91 2.83,0.76 6.39-0.45 9.47-1.37 4.27-1.32 5.05-10.3 2.74-14.3-1.39-2.41-0.78-3.79-0.22-5.63 2.16-7.17 2.27-14.36-0.1-21.49-1.28-3.91-4.05-6.81-7.51-9-4.69-3-9.12-2.37-13.5,1-3.58,2.7-7.56,2.75-11.5,0.5-10.13-5.7-18.7-2.14-22,9.13-2.11,7.2-1.23,14.42 0.65,21.46 0.38,1.45 0.91,2.11-0.09,3.58-2.29,3.42-1.44,7.25-0.58,10.92 0.73,3.12 2.68,4.46 6,4.58 3.83,0.14 7.82-1.23 11.5,0.87"/>
+                            <path stroke-width="2" d="M77,81.5h51"/>
+                            <path stroke-width="2" d="M89.5,57.5c6.14,6.23 17.65,7.42 25.18,2.45 1-0.66 2.02-1.01 3.02-1.45"/>
+                            <path stroke-width="2" d="M91.5,103c-3.82,1.36-7.65,2.72-11.64,4.14 0.35,1.23 0.73,2.55 1.23,4.29 8.66-2.64 17.39-5.01 25.93-8.13 3.17-1.13 7-0.51 9.48-3.43"/>
+                            <path stroke-width="2" d="M93,108.5c1.19,2.01-0.08,4.79 1.93,6.44 8.39-2.68 16.72-5.32 25.07-7.95 1.3,1.01 1.44,2.61 2.07,4.05-8.86,2.96-17.73,5.91-26.57,8.96"/>
+                            <path stroke-width="2" d="M106.5,141.5c1.54-1.47 3.62-1.44 5.49-2.02 2.92-0.91 4.26-2.57 1.71-5.66-8.02,2.53-16.21,5.08-24.29,7.58 0.13,2.01 0.51,3.39 2.13,4.48 4.44-1.5 9.44-3.21 14.46-4.88"/>
+                            <path stroke-width="2" d="M97.5,132c6.69-3.36 14.39-3.87 21.04-7.54-0.13-1.9-0.5-4.13-3-3.37-9.95,2.95-19.83,6.18-29.77,9.37 1.99,4.51 1.99,4.51 10.28,1.57 1.71,1.66 1.03,4.11 2.01,6"/>
+                            <path stroke-width="2" d="M96.5,126.5c-2.04-1.71 0.15-5.04-2.57-6.48-2.93,0.97-5.89,1.94-8.89,2.91-1.3-1.01-1.44-2.61-2.06-4.11 3.52-1.3 7.03-2.6 10.55-3.9"/>
+                            <path stroke-width="2" d="M106.5,142c0.07,2.72-0.73,5.14-3.52,5.89-2.11,0.58-3.21-1.18-4-2.89"/>
+                            <path stroke-width="3" d="M110.5,116v6"/>
+                            <path stroke-width="2" d="M112.5,103c0.43,1.83-1.47,3.67 0,5.5"/>
+                        </svg>
+                    </div>
+                    <h5>Услуга</h5>
+                    <p class="mb-0">Опис на услугата. Ова е краток опис на услугата.</p>
+                </div>
+            </div>
+             <div class="service">
+                <div class="inner p-3 mx-4 rounded shadow">
+                    <div class="d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="150" height="150" viewBox="0 0 200 200" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2" d="M73.5,88c-7,0-14,0.13-21-0.05-3.77-0.1-7.31,3.28-7.5,6.5-1.4,24.03 7.39,45.57 32.04,57.91 22.87,11.46 49.74,5.38 66.5-12.84 11.56-12.64 15.37-27.84 14.5-44-0.23-4.4-2.87-6.89-7.5-6.97-6.33-0.11-12.67,0-19,0"/>
+                            <path stroke-width="2" d="M92.5,102.5c0.83-1.34 1.61-2.6 3.5-2.78 7.15-0.7 14.13-2.91 21.55-0.91 2.83,0.76 6.39-0.45 9.47-1.37 4.27-1.32 5.05-10.3 2.74-14.3-1.39-2.41-0.78-3.79-0.22-5.63 2.16-7.17 2.27-14.36-0.1-21.49-1.28-3.91-4.05-6.81-7.51-9-4.69-3-9.12-2.37-13.5,1-3.58,2.7-7.56,2.75-11.5,0.5-10.13-5.7-18.7-2.14-22,9.13-2.11,7.2-1.23,14.42 0.65,21.46 0.38,1.45 0.91,2.11-0.09,3.58-2.29,3.42-1.44,7.25-0.58,10.92 0.73,3.12 2.68,4.46 6,4.58 3.83,0.14 7.82-1.23 11.5,0.87"/>
+                            <path stroke-width="2" d="M77,81.5h51"/>
+                            <path stroke-width="2" d="M89.5,57.5c6.14,6.23 17.65,7.42 25.18,2.45 1-0.66 2.02-1.01 3.02-1.45"/>
+                            <path stroke-width="2" d="M91.5,103c-3.82,1.36-7.65,2.72-11.64,4.14 0.35,1.23 0.73,2.55 1.23,4.29 8.66-2.64 17.39-5.01 25.93-8.13 3.17-1.13 7-0.51 9.48-3.43"/>
+                            <path stroke-width="2" d="M93,108.5c1.19,2.01-0.08,4.79 1.93,6.44 8.39-2.68 16.72-5.32 25.07-7.95 1.3,1.01 1.44,2.61 2.07,4.05-8.86,2.96-17.73,5.91-26.57,8.96"/>
+                            <path stroke-width="2" d="M106.5,141.5c1.54-1.47 3.62-1.44 5.49-2.02 2.92-0.91 4.26-2.57 1.71-5.66-8.02,2.53-16.21,5.08-24.29,7.58 0.13,2.01 0.51,3.39 2.13,4.48 4.44-1.5 9.44-3.21 14.46-4.88"/>
+                            <path stroke-width="2" d="M97.5,132c6.69-3.36 14.39-3.87 21.04-7.54-0.13-1.9-0.5-4.13-3-3.37-9.95,2.95-19.83,6.18-29.77,9.37 1.99,4.51 1.99,4.51 10.28,1.57 1.71,1.66 1.03,4.11 2.01,6"/>
+                            <path stroke-width="2" d="M96.5,126.5c-2.04-1.71 0.15-5.04-2.57-6.48-2.93,0.97-5.89,1.94-8.89,2.91-1.3-1.01-1.44-2.61-2.06-4.11 3.52-1.3 7.03-2.6 10.55-3.9"/>
+                            <path stroke-width="2" d="M106.5,142c0.07,2.72-0.73,5.14-3.52,5.89-2.11,0.58-3.21-1.18-4-2.89"/>
+                            <path stroke-width="3" d="M110.5,116v6"/>
+                            <path stroke-width="2" d="M112.5,103c0.43,1.83-1.47,3.67 0,5.5"/>
+                        </svg>
+                    </div>
+                    <h5>Услуга</h5>
+                    <p class="mb-0">Опис на услугата. Ова е краток опис на услугата.</p>
+                </div>
+            </div>
+             <div class="service">
+                <div class="inner p-3 mx-4 rounded shadow">
+                    <div class="d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="150" height="150" viewBox="0 0 200 200" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2" d="M73.5,88c-7,0-14,0.13-21-0.05-3.77-0.1-7.31,3.28-7.5,6.5-1.4,24.03 7.39,45.57 32.04,57.91 22.87,11.46 49.74,5.38 66.5-12.84 11.56-12.64 15.37-27.84 14.5-44-0.23-4.4-2.87-6.89-7.5-6.97-6.33-0.11-12.67,0-19,0"/>
+                            <path stroke-width="2" d="M92.5,102.5c0.83-1.34 1.61-2.6 3.5-2.78 7.15-0.7 14.13-2.91 21.55-0.91 2.83,0.76 6.39-0.45 9.47-1.37 4.27-1.32 5.05-10.3 2.74-14.3-1.39-2.41-0.78-3.79-0.22-5.63 2.16-7.17 2.27-14.36-0.1-21.49-1.28-3.91-4.05-6.81-7.51-9-4.69-3-9.12-2.37-13.5,1-3.58,2.7-7.56,2.75-11.5,0.5-10.13-5.7-18.7-2.14-22,9.13-2.11,7.2-1.23,14.42 0.65,21.46 0.38,1.45 0.91,2.11-0.09,3.58-2.29,3.42-1.44,7.25-0.58,10.92 0.73,3.12 2.68,4.46 6,4.58 3.83,0.14 7.82-1.23 11.5,0.87"/>
+                            <path stroke-width="2" d="M77,81.5h51"/>
+                            <path stroke-width="2" d="M89.5,57.5c6.14,6.23 17.65,7.42 25.18,2.45 1-0.66 2.02-1.01 3.02-1.45"/>
+                            <path stroke-width="2" d="M91.5,103c-3.82,1.36-7.65,2.72-11.64,4.14 0.35,1.23 0.73,2.55 1.23,4.29 8.66-2.64 17.39-5.01 25.93-8.13 3.17-1.13 7-0.51 9.48-3.43"/>
+                            <path stroke-width="2" d="M93,108.5c1.19,2.01-0.08,4.79 1.93,6.44 8.39-2.68 16.72-5.32 25.07-7.95 1.3,1.01 1.44,2.61 2.07,4.05-8.86,2.96-17.73,5.91-26.57,8.96"/>
+                            <path stroke-width="2" d="M106.5,141.5c1.54-1.47 3.62-1.44 5.49-2.02 2.92-0.91 4.26-2.57 1.71-5.66-8.02,2.53-16.21,5.08-24.29,7.58 0.13,2.01 0.51,3.39 2.13,4.48 4.44-1.5 9.44-3.21 14.46-4.88"/>
+                            <path stroke-width="2" d="M97.5,132c6.69-3.36 14.39-3.87 21.04-7.54-0.13-1.9-0.5-4.13-3-3.37-9.95,2.95-19.83,6.18-29.77,9.37 1.99,4.51 1.99,4.51 10.28,1.57 1.71,1.66 1.03,4.11 2.01,6"/>
+                            <path stroke-width="2" d="M96.5,126.5c-2.04-1.71 0.15-5.04-2.57-6.48-2.93,0.97-5.89,1.94-8.89,2.91-1.3-1.01-1.44-2.61-2.06-4.11 3.52-1.3 7.03-2.6 10.55-3.9"/>
+                            <path stroke-width="2" d="M106.5,142c0.07,2.72-0.73,5.14-3.52,5.89-2.11,0.58-3.21-1.18-4-2.89"/>
+                            <path stroke-width="3" d="M110.5,116v6"/>
+                            <path stroke-width="2" d="M112.5,103c0.43,1.83-1.47,3.67 0,5.5"/>
+                        </svg>
+                    </div>
+                    <h5>Услуга</h5>
+                    <p class="mb-0">Опис на услугата. Ова е краток опис на услугата.</p>
+                </div>
+            </div>
+             <div class="service">
+                <div class="inner p-3 mx-4 rounded shadow">
+                    <div class="d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="150" height="150" viewBox="0 0 200 200" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2" d="M73.5,88c-7,0-14,0.13-21-0.05-3.77-0.1-7.31,3.28-7.5,6.5-1.4,24.03 7.39,45.57 32.04,57.91 22.87,11.46 49.74,5.38 66.5-12.84 11.56-12.64 15.37-27.84 14.5-44-0.23-4.4-2.87-6.89-7.5-6.97-6.33-0.11-12.67,0-19,0"/>
+                            <path stroke-width="2" d="M92.5,102.5c0.83-1.34 1.61-2.6 3.5-2.78 7.15-0.7 14.13-2.91 21.55-0.91 2.83,0.76 6.39-0.45 9.47-1.37 4.27-1.32 5.05-10.3 2.74-14.3-1.39-2.41-0.78-3.79-0.22-5.63 2.16-7.17 2.27-14.36-0.1-21.49-1.28-3.91-4.05-6.81-7.51-9-4.69-3-9.12-2.37-13.5,1-3.58,2.7-7.56,2.75-11.5,0.5-10.13-5.7-18.7-2.14-22,9.13-2.11,7.2-1.23,14.42 0.65,21.46 0.38,1.45 0.91,2.11-0.09,3.58-2.29,3.42-1.44,7.25-0.58,10.92 0.73,3.12 2.68,4.46 6,4.58 3.83,0.14 7.82-1.23 11.5,0.87"/>
+                            <path stroke-width="2" d="M77,81.5h51"/>
+                            <path stroke-width="2" d="M89.5,57.5c6.14,6.23 17.65,7.42 25.18,2.45 1-0.66 2.02-1.01 3.02-1.45"/>
+                            <path stroke-width="2" d="M91.5,103c-3.82,1.36-7.65,2.72-11.64,4.14 0.35,1.23 0.73,2.55 1.23,4.29 8.66-2.64 17.39-5.01 25.93-8.13 3.17-1.13 7-0.51 9.48-3.43"/>
+                            <path stroke-width="2" d="M93,108.5c1.19,2.01-0.08,4.79 1.93,6.44 8.39-2.68 16.72-5.32 25.07-7.95 1.3,1.01 1.44,2.61 2.07,4.05-8.86,2.96-17.73,5.91-26.57,8.96"/>
+                            <path stroke-width="2" d="M106.5,141.5c1.54-1.47 3.62-1.44 5.49-2.02 2.92-0.91 4.26-2.57 1.71-5.66-8.02,2.53-16.21,5.08-24.29,7.58 0.13,2.01 0.51,3.39 2.13,4.48 4.44-1.5 9.44-3.21 14.46-4.88"/>
+                            <path stroke-width="2" d="M97.5,132c6.69-3.36 14.39-3.87 21.04-7.54-0.13-1.9-0.5-4.13-3-3.37-9.95,2.95-19.83,6.18-29.77,9.37 1.99,4.51 1.99,4.51 10.28,1.57 1.71,1.66 1.03,4.11 2.01,6"/>
+                            <path stroke-width="2" d="M96.5,126.5c-2.04-1.71 0.15-5.04-2.57-6.48-2.93,0.97-5.89,1.94-8.89,2.91-1.3-1.01-1.44-2.61-2.06-4.11 3.52-1.3 7.03-2.6 10.55-3.9"/>
+                            <path stroke-width="2" d="M106.5,142c0.07,2.72-0.73,5.14-3.52,5.89-2.11,0.58-3.21-1.18-4-2.89"/>
+                            <path stroke-width="3" d="M110.5,116v6"/>
+                            <path stroke-width="2" d="M112.5,103c0.43,1.83-1.47,3.67 0,5.5"/>
+                        </svg>
+                    </div>
+                    <h5>Услуга</h5>
+                    <p class="mb-0">Опис на услугата. Ова е краток опис на услугата.</p>
+                </div>
+            </div>
+             <div class="service">
+                <div class="inner p-3 mx-4 rounded shadow">
+                    <div class="d-flex justify-content-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto" width="150" height="150" viewBox="0 0 200 200" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke-width="2" d="M73.5,88c-7,0-14,0.13-21-0.05-3.77-0.1-7.31,3.28-7.5,6.5-1.4,24.03 7.39,45.57 32.04,57.91 22.87,11.46 49.74,5.38 66.5-12.84 11.56-12.64 15.37-27.84 14.5-44-0.23-4.4-2.87-6.89-7.5-6.97-6.33-0.11-12.67,0-19,0"/>
+                            <path stroke-width="2" d="M92.5,102.5c0.83-1.34 1.61-2.6 3.5-2.78 7.15-0.7 14.13-2.91 21.55-0.91 2.83,0.76 6.39-0.45 9.47-1.37 4.27-1.32 5.05-10.3 2.74-14.3-1.39-2.41-0.78-3.79-0.22-5.63 2.16-7.17 2.27-14.36-0.1-21.49-1.28-3.91-4.05-6.81-7.51-9-4.69-3-9.12-2.37-13.5,1-3.58,2.7-7.56,2.75-11.5,0.5-10.13-5.7-18.7-2.14-22,9.13-2.11,7.2-1.23,14.42 0.65,21.46 0.38,1.45 0.91,2.11-0.09,3.58-2.29,3.42-1.44,7.25-0.58,10.92 0.73,3.12 2.68,4.46 6,4.58 3.83,0.14 7.82-1.23 11.5,0.87"/>
+                            <path stroke-width="2" d="M77,81.5h51"/>
+                            <path stroke-width="2" d="M89.5,57.5c6.14,6.23 17.65,7.42 25.18,2.45 1-0.66 2.02-1.01 3.02-1.45"/>
+                            <path stroke-width="2" d="M91.5,103c-3.82,1.36-7.65,2.72-11.64,4.14 0.35,1.23 0.73,2.55 1.23,4.29 8.66-2.64 17.39-5.01 25.93-8.13 3.17-1.13 7-0.51 9.48-3.43"/>
+                            <path stroke-width="2" d="M93,108.5c1.19,2.01-0.08,4.79 1.93,6.44 8.39-2.68 16.72-5.32 25.07-7.95 1.3,1.01 1.44,2.61 2.07,4.05-8.86,2.96-17.73,5.91-26.57,8.96"/>
+                            <path stroke-width="2" d="M106.5,141.5c1.54-1.47 3.62-1.44 5.49-2.02 2.92-0.91 4.26-2.57 1.71-5.66-8.02,2.53-16.21,5.08-24.29,7.58 0.13,2.01 0.51,3.39 2.13,4.48 4.44-1.5 9.44-3.21 14.46-4.88"/>
+                            <path stroke-width="2" d="M97.5,132c6.69-3.36 14.39-3.87 21.04-7.54-0.13-1.9-0.5-4.13-3-3.37-9.95,2.95-19.83,6.18-29.77,9.37 1.99,4.51 1.99,4.51 10.28,1.57 1.71,1.66 1.03,4.11 2.01,6"/>
+                            <path stroke-width="2" d="M96.5,126.5c-2.04-1.71 0.15-5.04-2.57-6.48-2.93,0.97-5.89,1.94-8.89,2.91-1.3-1.01-1.44-2.61-2.06-4.11 3.52-1.3 7.03-2.6 10.55-3.9"/>
+                            <path stroke-width="2" d="M106.5,142c0.07,2.72-0.73,5.14-3.52,5.89-2.11,0.58-3.21-1.18-4-2.89"/>
+                            <path stroke-width="3" d="M110.5,116v6"/>
+                            <path stroke-width="2" d="M112.5,103c0.43,1.83-1.47,3.67 0,5.5"/>
+                        </svg>
+                    </div>
+                    <h5>Услуга</h5>
+                    <p class="mb-0">Опис на услугата. Ова е краток опис на услугата.</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <div id="working-hours" class="working-hours p-5 d-flex flex-column align-items-center bg-light">
+        <h3 class="text-center mb-4 mt-5">Работно време</h3>
+        <div class="rounded shadow mb-5 p-5 w-25">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <p class="fw-semibold mb-0">Понеделник - Петок:</p>
+                <p class="text-end mb-0">12:00 - 19:00</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <p class="fw-semibold mb-0">Сабота:</p>
+                <p class="text-end mb-0">12:00 - 17:00</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="fw-semibold mb-0">Пауза:</p>
+                <p class="text-end mb-0">15:00 - 16:00</p>
+            </div>
+        </div>
+    </div>
+    <div id="about-us" class="about-us d-flex border-bottom">
+        <div class="w-50 p-5">
+            <h3 class="mb-4 mt-5">За нас</h3>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quibusdam blanditiis doloremque qui in impedit beatae expedita iste similique voluptatum nulla architecto? Pariatur quas aliquam praesentium similique! Illum id repellendus in dolores, debitis voluptate, explicabo magnam, distinctio magni facilis eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, ab deleniti! Quam nesciunt tenetur sunt iure aut cumque, reiciendis nihil excepturi a, veniam rerum esse distinctio quaerat, enim et. Ex eius, illo, possimus officiis facilis fugiat modi sequi excepturi earum dolores tempore odio. Unde, delectus!</p>
+        </div>
+        <div class="min-w-25 min-h-100 about-us-image">
+        </div>
+    </div>
+  
+    <footer id="contact" class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <!-- Contact Info -->
+                <div class="col-12 col-md-3 mb-4">
+                    <h5>Contact Us</h5>
+                    <p class="mb-1">123 Main Street<br>City, Country 12345</p>
+                    <p class="mb-1">Phone: <a href="tel:+1234567890" class="text-white text-decoration-none">+1 (234) 567-890</a></p>
+                    <p>Email: <a href="mailto:info@example.com" class="text-white text-decoration-none">info@example.com</a></p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-12 col-md-3 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div class="col-12 col-md-3 mb-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
+                    <a href="#" class="text-white text-decoration-none me-3"><i class="bi bi-twitter"></i> Twitter</a><br>
+                    <a href="#" class="text-white text-decoration-none me-3"><i class="bi bi-instagram"></i> Instagram</a><br>
+                    <a href="#" class="text-white text-decoration-none"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                </div>
+
+                <!-- Google Map -->
+                <div class="col-12 col-md-3 mb-4">
+                    <div class="ratio ratio-4x3">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28355.66457403406!2d21.432453852206926!3d42.06308466914485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13546aea229b5c63%3A0x40e9ded09c2c74d7!2zUmFkacWhYW5p!5e1!3m2!1sen!2smk!4v1744315797351!5m2!1sen!2smk" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-secondary">
+
+            <div class="text-center text-muted small ">
+               <p class="text-white mb-0"> &copy; 2025 DentalVBES. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>

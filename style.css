@@ -1,0 +1,43 @@
+.hero{
+    background-image: linear-gradient( rgba(87, 86, 86, 0.5), rgba(110, 110, 110, 0.5)) , url('hero.jpg');
+    background-size: cover;
+}
+
+.title-container{
+    height: calc(100vh - 250px);
+}
+
+.title{
+    font-size: 45px;
+}
+
+.logo{
+   max-width: 250px;
+   max-height: 200px;
+}
+
+nav{
+    padding: 0 250px;
+}
+
+.services{
+    background-color: #F8F8F7;
+}
+
+.service{
+    flex-basis: 20%;
+    margin-bottom: 30px;
+   
+}
+
+.about-us{
+    height: 60vh;
+}
+
+.about-us-image{
+   min-width: 50%;
+   min-height: 100%;
+   background: url('image1.jpg') no-repeat top;
+   background-size: cover;
+    
+}
