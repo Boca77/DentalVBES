@@ -12,12 +12,21 @@
     <div class="hero page w-100 vh-100 d-flex flex-column">
         <nav class="d-flex align-items-center justify-content-between px-3 px-md-5 w-100">
             <img class="logo" src="logo.png" alt="logo">
-            <div class="d-flex align-items-center gap-2 gap-md-3">
+            <div class="d-flex nav-options align-items-center gap-2 gap-md-3">
                 <p class="mb-0"><a class="text-white text-decoration-none" href="#">Почетна</a></p>
                 <p class="mb-0"><a class="text-white text-decoration-none" href="#services">Услуги</a></p>
                 <p class="mb-0"><a class="text-white text-decoration-none" href="#working-hours">Работно време</a></p>
                 <p class="mb-0"><a class="text-white text-decoration-none" href="#about-us">За нас</a></p>
                 <p class="mb-0"><a class="text-white text-decoration-none" href="#contact">Контакт</a></p>
+            </div>
+            <div class="hamburger-menu">
+                <svg width="25px" height="25px" viewBox="0 0 91 91" enable-background="new 0 0 91 91" id="Layer_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                    <path d="M85.713,12.142H5.861c-2.305,0-4.174-1.869-4.174-4.176c0-2.305,1.869-4.174,4.174-4.174h79.852   c2.305,0,4.174,1.869,4.174,4.174C89.887,10.273,88.018,12.142,85.713,12.142z" fill="black"/>
+                    <path d="M85.713,49.858H5.861c-2.305,0-4.174-1.869-4.174-4.175c0-2.307,1.869-4.176,4.174-4.176h79.852   c2.305,0,4.174,1.869,4.174,4.176C89.887,47.989,88.018,49.858,85.713,49.858z" fill="black"/>
+                    <path d="M85.713,87.571H5.861c-2.305,0-4.174-1.869-4.174-4.176s1.869-4.176,4.174-4.176h79.852   c2.305,0,4.174,1.869,4.174,4.176S88.018,87.571,85.713,87.571z" fill="black"/>
+                    </g>
+                </svg>
             </div>
         </nav>
         <div class="title-container w-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
@@ -209,23 +218,23 @@
     </div>
     <div id="working-hours" class="working-hours p-5 d-flex flex-column align-items-center bg-light">
         <h3 class="text-center mb-4 mt-5">Работно време</h3>
-        <div class="rounded shadow mb-5 p-5 w-25">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <p class="fw-semibold mb-0">Понеделник - Петок:</p>
-                <p class="text-end mb-0">12:00 - 19:00</p>
+        <div class="rounded shadow mb-5 p-4 w-100 w-md-50">
+            <div class="row mb-3">
+                <p class="col-6 mb-0 text-start fw-semibold">Понеделник - Петок:</p>
+                <p class="col-6 mb-0 text-end">12:00 - 19:00</p>
             </div>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <p class="fw-semibold mb-0">Сабота:</p>
-                <p class="text-end mb-0">12:00 - 17:00</p>
+            <div class="row mb-3">
+                <p class="col-6 mb-0 text-start fw-semibold">Сабота:</p>
+                <p class="col-6 mb-0 text-end">12:00 - 17:00</p>
             </div>
-            <div class="d-flex justify-content-between align-items-center">
-                <p class="fw-semibold mb-0">Пауза:</p>
-                <p class="text-end mb-0">15:00 - 16:00</p>
+            <div class="row">
+                <p class="col-6 mb-0 text-start fw-semibold">Пауза:</p>
+                <p class="col-6 mb-0 text-end">15:00 - 16:00</p>
             </div>
         </div>
     </div>
     <div id="about-us" class="about-us d-flex border-bottom">
-        <div class="w-50 p-5">
+        <div class="w-50 p-5 content">
             <h3 class="mb-4 mt-5">За нас</h3>
             <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quibusdam blanditiis doloremque qui in impedit beatae expedita iste similique voluptatum nulla architecto? Pariatur quas aliquam praesentium similique! Illum id repellendus in dolores, debitis voluptate, explicabo magnam, distinctio magni facilis eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, ab deleniti! Quam nesciunt tenetur sunt iure aut cumque, reiciendis nihil excepturi a, veniam rerum esse distinctio quaerat, enim et. Ex eius, illo, possimus officiis facilis fugiat modi sequi excepturi earum dolores tempore odio. Unde, delectus!</p>
         </div>
@@ -235,9 +244,9 @@
   
     <footer id="contact" class="bg-dark text-white pt-5 pb-3">
         <div class="container">
-            <div class="row text-center text-md-start">
+            <div class="row text-md-start">
                 <!-- Contact Info -->
-                <div class="col-12 col-md-3 mb-4">
+                <div class="col-md-3 col-sm-6 mb-4">
                     <h5>Contact Us</h5>
                     <p class="mb-1">123 Main Street<br>City, Country 12345</p>
                     <p class="mb-1">Phone: <a href="tel:+1234567890" class="text-white text-decoration-none">+1 (234) 567-890</a></p>
@@ -245,7 +254,7 @@
                 </div>
 
                 <!-- Quick Links -->
-                <div class="col-12 col-md-3 mb-4">
+                <div class="col-md-3 col-sm-6 mb-4">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#" class="text-white text-decoration-none">Home</a></li>
@@ -256,7 +265,7 @@
                 </div>
 
                 <!-- Social Media -->
-                <div class="col-12 col-md-3 mb-4">
+                <div class="col-md-3 col-sm-6 mb-4">
                     <h5>Follow Us</h5>
                     <a href="#" class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
                     <a href="#" class="text-white text-decoration-none me-3"><i class="bi bi-twitter"></i> Twitter</a><br>
@@ -265,7 +274,7 @@
                 </div>
 
                 <!-- Google Map -->
-                <div class="col-12 col-md-3 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="ratio ratio-4x3">
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28355.66457403406!2d21.432453852206926!3d42.06308466914485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13546aea229b5c63%3A0x40e9ded09c2c74d7!2zUmFkacWhYW5p!5e1!3m2!1sen!2smk!4v1744315797351!5m2!1sen!2smk" 
@@ -286,7 +295,34 @@
         </div>
     </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function () {
+        // Check if the browser width is below 768px
+        if ($(window).width() < 768) {
+            $(".nav-options").addClass("d-none"); // Add d-none to hide nav options
+        }
+
+        // Toggle nav options with slide animation on hamburger menu click
+        $(".hamburger-menu").click(function () {
+            if ($(".nav-options").hasClass("d-none")) {
+                $(".nav-options").removeClass("d-none").hide().slideDown(300); // Remove d-none and slide down
+            } else {
+                $(".nav-options").slideUp(300, function () {
+                    $(this).addClass("d-none"); // Add d-none after sliding up
+                });
+            }
+        });
+
+        // Close nav options when any link is clicked
+        $(".nav-options a").click(function () {
+            $(".nav-options").slideUp(300, function () {
+                $(this).addClass("d-none"); // Add d-none after sliding up
+            });
+        });
+    });
+
+    </script>
 </body>
 </html>
