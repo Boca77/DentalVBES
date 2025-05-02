@@ -1,5 +1,5 @@
 .hero{
-    background-image: linear-gradient( rgba(87, 86, 86, 0.3), rgba(110, 110, 110, 0.3)) , url('hero1.jpg');
+    background-image: linear-gradient( rgba(87, 86, 86, 0.3), rgba(110, 110, 110, 0.3)) , url('hero.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -30,14 +30,15 @@
     height: 180px;
 }
 
-.service-section-container{
-    top: -50px;
+.service-section-container {
+    margin-top: -100px; /* this gives the visual overlap */
     background-color: #F8F8F7;
     width: 95%;
     border-radius: 15px;
     padding: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
 }
 
 .logo{
@@ -49,9 +50,10 @@ nav{
     padding: 0 250px;
 }
 
-.services{
+.services {
+    padding-bottom: 100px; /* match or exceed the -margin above */
     background-color: #F8F8F7;
-    height: 70vh;
+    height: auto; /* remove height: 80vh unless really needed */
 }
 
 .service{
@@ -64,18 +66,15 @@ nav{
     min-height: 60vh;
 }
 
-.about-us-image{
-   min-width: 50%;
-   min-height: 100%;
-   background: url('image1.jpg') no-repeat top;
-   background-size: cover;
+.img-container{
+    max-width: 50%;
+    min-height: 100%;
 }
 
-.prp-image{
-   min-width: 50%;
+.img-container img{
+   min-width: 100%;
    min-height: 100%;
-   background: url('PRP-image.jpg') no-repeat top;
-   background-size: cover;
+   border-radius: 20px !important;
 }
 
 .map {
@@ -102,6 +101,25 @@ nav{
     color: white;
     margin-top: 15px;
     display: inline-block;
+}
+
+@media (max-width: 1300px) {
+  .about-us {
+    flex-direction: column !important;
+
+    .content, .img-container {
+      width: 100% !important;
+      padding: 1rem !important;
+    }
+
+    .prp-image,
+    .about-us-image {
+      min-width: 100% !important;
+      height: 250px; 
+      background-size: cover;
+      background-position: center;
+    }
+  }
 }
 
 @media (max-width: 768px) {

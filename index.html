@@ -1,51 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="DentalVBES - Професионална стоматолошка ординација со 20+ години искуство. Нудиме услуги како PRP третмани, естетска и општа стоматологија.">
+    <meta name="keywords" content="стоматолог, стоматолошка ординација, заби, PRP третман, стоматологија Скопје, DentalVBES">
+    <meta name="author" content="DentalVBES">
+
+    <title>DentalVBES - Ваша доверба, наша одговорност</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="DentalVBES - Стоматолошка ординација">
+    <meta property="og:description" content="Со повеќе од 20 години искуство, DentalVBES нуди висококвалитетна стоматолошка нега и иновативни третмани.">
+    <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DentalVBES - Стоматолошка ординација">
+    <meta name="twitter:description" content="Висококвалитетна стоматолошка нега и PRP третмани за подмладување.">
+    <meta name="twitter:image" content="https://yourdomain.com/og-image.jpg">
+
+    <!-- Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <title>DentalVBES</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "DentalVBES",
+      "image": "https://yourdomain.com/logo.png",
+      "@id": "https://yourdomain.com/",
+      "url": "https://yourdomain.com/",
+      "telephone": "+1234567890",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main Street",
+        "addressLocality": "Скопје",
+        "addressCountry": "MK",
+        "postalCode": "1000"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.035492,
+        "longitude": 21.446057
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "12:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "12:00",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/YourPage",
+        "https://www.instagram.com/YourProfile"
+      ]
+    }
+    </script>
 </head>
 <body>
-    <div class="hero page w-100 vh-100 d-flex flex-column">
-        <nav class="d-flex align-items-center justify-content-between px-3 px-md-5 w-100">
-            <img class="logo" src="logo.png" alt="logo">
-            <div class="d-flex nav-options align-items-center gap-2 gap-md-3 hidden">
-                <p class="mb-0"><a class="text-white text-decoration-none" href="#">Почетна</a></p>
-                <p class="mb-0"><a class="text-white text-decoration-none" href="#services">Услуги</a></p>
-                <p class="mb-0"><a class="text-white text-decoration-none" href="#working-hours">Работно време</a></p>
-                <p class="mb-0"><a class="text-white text-decoration-none" href="#about-us">За нас</a></p>
-                <p class="mb-0"><a class="text-white text-decoration-none" href="#contact">Контакт</a></p>
-            </div>
-            <div class="hamburger-menu">
-                <svg width="25px" height="25px" viewBox="0 0 91 91" enable-background="new 0 0 91 91" id="Layer_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g>
-                    <path d="M85.713,12.142H5.861c-2.305,0-4.174-1.869-4.174-4.176c0-2.305,1.869-4.174,4.174-4.174h79.852   c2.305,0,4.174,1.869,4.174,4.174C89.887,10.273,88.018,12.142,85.713,12.142z" fill="black"/>
-                    <path d="M85.713,49.858H5.861c-2.305,0-4.174-1.869-4.174-4.175c0-2.307,1.869-4.176,4.174-4.176h79.852   c2.305,0,4.174,1.869,4.174,4.176C89.887,47.989,88.018,49.858,85.713,49.858z" fill="black"/>
-                    <path d="M85.713,87.571H5.861c-2.305,0-4.174-1.869-4.174-4.176s1.869-4.176,4.174-4.176h79.852   c2.305,0,4.174,1.869,4.174,4.176S88.018,87.571,85.713,87.571z" fill="black"/>
-                    </g>
-                </svg>
-            </div>
-        </nav>
-        <div class="title-container w-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
-         
-        </div>
+  <header class="hero page w-100 vh-100 d-flex flex-column">
+    <nav class="d-flex align-items-center justify-content-between px-3 px-md-5 w-100">
+      <img class="logo" src="logo.png" alt="DentalVBES лого">
+      <div class="d-flex nav-options align-items-center gap-2 gap-md-3 hidden">
+        <p class="mb-0"><a class="text-white text-decoration-none" href="#">Почетна</a></p>
+        <p class="mb-0"><a class="text-white text-decoration-none" href="#services">Услуги</a></p>
+        <p class="mb-0"><a class="text-white text-decoration-none" href="#working-hours">Работно време</a></p>
+        <p class="mb-0"><a class="text-white text-decoration-none" href="#prp-treatment">PRP Третман</a></p>
+        <p class="mb-0"><a class="text-white text-decoration-none" href="#about-us">За нас</a></p>
+        <p class="mb-0"><a class="text-white text-decoration-none" href="#contact">Контакт</a></p>
+      </div>
+    </nav>
+    <div class="title-container text-center px-3 d-flex justify-content-center align-items-center">
+      <h1 class="text-white">Добредојдовте во DentalVBES</h1>
     </div>
-    <div id="services" class="services p-5 position-relative ">
-       <div class="service-section-container shadow position-absolute">
-            <p class="h3">Услуги кои ги нудиме</p>
-            <div class="services-container mt-5 d-flex flex-wrap justify-content-center">
-            
-            </div>
-       </div>
-    </div>
+  </header>
 
-    <div id="about-us" class="about-us d-flex border-bottom flex-row-reverse">
-        <div class="w-50 p-5 content">
-            <h3 class="mb-4 mt-2">PRP Третман за лице</h3>
-            <p class="mb-2">Природно подмладување со сопствена плазма – Блесни со самодоверба!
+  <main>
+    <section id="services" class="services p-5">
+      <div class="service-section-container shadow">
+        <h2 class="h3">Услуги кои ги нудиме</h2>
+        <div class="services-container mt-5 d-flex flex-wrap justify-content-center"></div>
+      </div>
+    </section>
+
+    <section id="prp-treatment" class="about-us d-flex flex-row-reverse">
+      <div class="w-50 p-5 content">
+        <h2 class="mb-4 mt-2">PRP Третман за лице</h2>
+           <p class="mb-2">Природно подмладување со сопствена плазма – Блесни со самодоверба!
                 PRP (Platelet-Rich Plasma) третманот е иновативна и целосно природна процедура која користи ваша сопствена крв за да ја регенерира и подмлади кожата. Без хемикалии, без вештачки состојки – само моќта на вашето тело.
                 Ако забележувате знаци на стареење, уморна кожа, или сакате свеж, здрав изглед без агресивни третмани – PRP е идеалното решение за вас.</p>
             <p class="fw-bold"> Придобивки од PRP третманот:</p>
@@ -58,101 +123,65 @@
             </ul>
             <p class="fw-bold">Колку третмани се потребни?</p>
             <p>Најдобри резултати се постигнуваат со 2 до 3 третмани, во интервали од 4 до 6 недели. За одржување, се препорачува еден третман на секои 6 до 12 месеци.</p>
-            
-        </div>
-        <div class="min-w-25 min-h-100 prp-image">
-        </div>
-    </div>
-  
-    <div id="about-us" class="about-us d-flex border-bottom">
-        <div class="w-50 p-5 content">
-            
-            <h3 class="mb-4 mt-5">За нас</h3>
-            <p>За Нас Вашата доверба, нашата одговорност – 20+ години посветеност на здравјето на вашите заби. 
+      </div>
+      <div class="p-3 img-container d-flex align-items-center">
+        <img src="PRP-image.jpg" alt="Жена по PRP третман">
+      </div>
+    </section>
+
+    <section id="about-us" class="about-us d-flex">
+      <div class="w-50 p-5 content">
+        <h2 class="mb-4 mt-5">За нас</h2>
+        <p>За Нас Вашата доверба, нашата одговорност – 20+ години посветеност на здравјето на вашите заби. 
             Со над 20 години искуство во областа на стоматологијата, нашата ординација е посветена на обезбедување на висококвалитетна и професионална стоматолошка нега. 
             Секој наш пациент е на прво место и ние се грижиме да им овозможиме најдобра можна услуга во удобни и пријатни услови. </p>
-            <h4>Нашата мисија</h4> 
-            <p>Наша цел е да ги задоволиме потребите на нашите пациенти, да обезбедиме стоматолошка нега која е на високо професионално ниво, и да ги охрабриме пациентите да водат грижа за своето здравје.
+        <h3>Нашата мисија</h3>
+        <p>Наша цел е да ги задоволиме потребите на нашите пациенти, да обезбедиме стоматолошка нега која е на високо професионално ниво, и да ги охрабриме пациентите да водат грижа за своето здравје.
              Секој член на нашиот тим е високо обучен и страстен за својата работа, и ние секогаш се трудиме да го направиме процесот на третман што поудобен и попријатен за вас.</p>
+      </div>
+      <div class="img-container p-3 d-flex align-items-center">
+        <img src="image1.jpg" alt="Тимот на DentalVBES">
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="bg-dark text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row text-md-start">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <h4>Контакт</h4>
+          <address>
+            <p>123 Main Street<br>Скопје, Македонија</p>
+            <p>Тел: <a href="tel:+38970123456" class="text-white">+389 70 123 456</a></p>
+            <p>Email: <a href="mailto:info@dentalvbes.mk" class="text-white">info@dentalvbes.mk</a></p>
+          </address>
         </div>
-        <div class="min-w-25 min-h-100 about-us-image">
+
+        <div class="col-md-3 col-sm-6 mb-4" id="working-hours">
+          <h4>Работно време</h4>
+          <p>Понеделник - Петок: 12:00 - 19:00</p>
+          <p>Сабота: 12:00 - 17:00</p>
+          <p>Пауза: 15:00 - 16:00</p>
         </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1773.0043802224034!2d21.445258436602582!3d42.035299362524064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13546bce0048d65d%3A0xca49f93a39be18c9!2sDENTAL%20VBES!5e1!3m2!1sen!2smk!4v1745952589473!5m2!1sen!2smk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <a class="get-directions-btn" href="https://www.google.com/maps/dir/?api=1&destination=42.03549156223362,21.44605716053356" target="_blank">Насоки до ординацијата</a>
+        </div>
+      </div>
+
+      <hr class="border-secondary">
+
+      <div class="text-center text-muted small">
+        <p class="text-white mb-0">&copy; 2025 DentalVBES. Сите права задржани.</p>
+      </div>
     </div>
-  
-    <footer id="contact" class="bg-dark text-white pt-5 pb-3">
-        <div class="container">
-            <div class="row text-md-start">
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <h5>Contact Us</h5>
-                    <p class="mb-1">123 Main Street<br>City, Country 12345</p>
-                    <p class="mb-1">Phone: <a href="tel:+1234567890" class="text-white text-decoration-none">+1 (234) 567-890</a></p>
-                    <p>Email: <a href="mailto:info@example.com" class="text-white text-decoration-none">info@example.com</a></p>
-                </div>
+  </footer>
 
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <h5>Работно време</h5>
-                    <div class="d-flex mb-2">
-                        <p class="col-6 mb-0 text-start fw-semibold">Понеделник - Петок:</p>
-                        <p class="col-6 mb-0 text-end">12:00 - 19:00</p>
-                    </div>
-                    <div class="d-flex mb-2">
-                        <p class="col-6 mb-0 text-start fw-semibold">Сабота:</p>
-                        <p class="col-6 mb-0 text-end">12:00 - 17:00</p>
-                    </div>
-                    <div class="d-flex">
-                        <p class="col-6 mb-0 text-start fw-semibold">Пауза:</p>
-                        <p class="col-6 mb-0 text-end">15:00 - 16:00</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 mb-4">
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1773.0043802224034!2d21.445258436602582!3d42.035299362524064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13546bce0048d65d%3A0xca49f93a39be18c9!2sDENTAL%20VBES!5e1!3m2!1sen!2smk!4v1745952589473!5m2!1sen!2smk" 
-                        width="100%" 
-                        height="100%" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <a class="get-directions-btn" href="https://www.google.com/maps/dir/?api=1&destination=42.03549156223362,21.44605716053356" target="_blank">
-                        Get Directions
-                    </a>
-                </div>
-               
-            </div>
-
-            <!-- <div id="working-hours" class="working-hours d-flex flex-column align-items-center">
-                <h3 class="text-center mb-4 mt-5">Работно време</h3>
-                <div class="rounded shadow mb-5 p-4 working-hours-inner">
-                    <div class="row mb-3">
-                        <p class="col-6 mb-0 text-start fw-semibold">Понеделник - Петок:</p>
-                        <p class="col-6 mb-0 text-end">12:00 - 19:00</p>
-                    </div>
-                    <div class="row mb-3">
-                        <p class="col-6 mb-0 text-start fw-semibold">Сабота:</p>
-                        <p class="col-6 mb-0 text-end">12:00 - 17:00</p>
-                    </div>
-                    <div class="row">
-                        <p class="col-6 mb-0 text-start fw-semibold">Пауза:</p>
-                        <p class="col-6 mb-0 text-end">15:00 - 16:00</p>
-                    </div>
-                </div>
-            </div> -->
-
-            <hr class="border-secondary">
-
-            <div class="text-center text-muted small ">
-               <p class="text-white mb-0"> &copy; 2025 DentalVBES. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-    <script>
-    
-    </script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
